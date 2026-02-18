@@ -17,5 +17,29 @@ Use the # sign to indicate level 1-6 titles
 ```
 </pre>
 >Attention:\
-- Leave a space between the last # character and the title.
+Leave a space between the last # character and the title.
+### Font 
+One asterisk or underscore is italic,two are bold,three are bold italic.
+|      code            | effect  |
+| --------            | -----: |
+| ```*This is italic*```      | *This is italic* |
+| ```**This is bold**```     | **This is bold**  |
+| ```***This is italic bold***```  | ***This is italic bold***   |
+|``` _This is italic_```      |_This is italic_ |
+| ```__This is bold__```     | __This is bold__  |
+| ```___This is italic bold___```  | ___This is italic bold___   |
+### Line break
+Force line wrap
+Add two space at the end of the line + carriage return.
+<pre>
+```markdown
+first line··
+second line
+```
+</pre>
+***effect***
+first line  
+second line
+
+Pargraph wrap 
 
