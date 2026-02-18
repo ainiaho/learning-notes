@@ -1,6 +1,6 @@
 # My learning-notes
 ## **My schedule** 
---- 
+ 
 ## Basic
 - Linux
   - Linux command
@@ -8,9 +8,9 @@
 --- 
 ## Programming language
 - Python
-  -
-- html
-  - 
+ - 
+- html 
+ - 
 - javasp
  - 
 - css
