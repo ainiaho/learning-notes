@@ -37,7 +37,7 @@ first line··
 second line
 ```
 </pre>
-***effect***
+***effect***  
 first line  
 second line
 
@@ -50,6 +50,7 @@ Within a referenced block,a newline is allowd,which does not terminate the refer
 >>This is a quoted of a quoted
 >>>This is a quoted of a quoted of a quoted
 ```
+</pre>
 >This is a quote
 >>This is a quoted of a quoted
 >>>This is a quoted of a quoted of a quoted
