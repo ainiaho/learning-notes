@@ -41,5 +41,16 @@ second line
 first line  
 second line
 
-Pargraph wrap 
+Add ```<br/>```in the middle
+### Quoted
+Within a referenced block,a newline is allowd,which does not terminate the reference.
+<pre>
+```
+>This is a quote
+>>This is a quoted of a quoted
+>>>This is a quoted of a quoted of a quoted
+```
+>This is a quote
+>>This is a quoted of a quoted
+>>>This is a quoted of a quoted of a quoted
 
