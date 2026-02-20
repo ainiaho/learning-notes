@@ -76,4 +76,40 @@ Add two ~ sign
   </pre>
 ~~This is deleted text ~~ 
 ### underline 
-In text add before and after 
+In text home and end ```<u>text</u>``` 
+<u>The line has been undeerlined</u>
+### code clock 
+Markdown three are two types of code blocks Insert
+First:In a line reference code can use <pre>` or ```
+```</pre>
+`The code`no code
+```python (Decaration code type)
+print("Hello world")
+```
+### Table 
+"|"used to divide cells 
+":-"align content left
+"-:"align content right 
+"-:-"align center content
+effect
+| Colmn1        | Column2        | Column3        |
+| ------------- | -------------- | -------------- |
+| Item1         | Item1          | Item1          |
+
+### Footnote
+<pre>[^]</pre> used to footnote
+**effect**
+Markdown can use footnote[^1]
+special signs can be used \ indicated.
+**effect**
+<pre>\*  \+   ....</pre>
+### Make a plan
+```- [ ]```can indicates unfinished plan
+```- [x]```can indicates finished plan
+**effect**
+- [ ] Study English
+- [x] Study Markdown
+### Write fornula
+```$$```Represent an entire row formula
+effect
+$E=mc^2$

@@ -1,3 +1,5 @@
+The so-called bottomless abyss - if you go down it,you may still find a journey of ten thousand miles ahead.
+        -- Mu Xin,On Siple Travel
 ## Markdown introduction
 Markdown is a lightweight markup language.
 Allows people to edit document in a plain text format that is easy to read and write then convert to a valid html document.
