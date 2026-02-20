@@ -2,13 +2,9 @@
 ## **My schedule** 
  
 ## Basic
-- Linux
-  - Linux command
-  - 
-- markdown 
- - 
- -
---- 
+- [ ] markdown
+- [ ] Linux
+- [ ]
 ## Programming language
 - Python
  - 
