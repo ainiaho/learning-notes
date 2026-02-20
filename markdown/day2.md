@@ -80,8 +80,7 @@ In text home and end ```<u>text</u>```
 <u>The line has been undeerlined</u>
 ### code clock 
 Markdown three are two types of code blocks Insert
-First:In a line reference code can use <pre>` or ```
-```</pre>
+First:In a line reference code can use <pre>` or ``` </pre>
 `The code`no code
 ```python (Decaration code type)
 print("Hello world")
