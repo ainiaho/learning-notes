@@ -80,8 +80,8 @@ In text home and end ```<u>text</u>```
 <u>The line has been undeerlined</u>
 ### code clock 
 Markdown three are two types of code blocks Insert
-First:In a line reference code can use
-`The code`no code
+First:In a line reference code can use \` or \```  
+>`The code`no code
 ```python (Decaration code type)
 print("Hello world")
 ```
@@ -89,14 +89,14 @@ print("Hello world")
 "|"used to divide cells 
 ":-"align content left
 "-:"align content right 
-"-:-"align center content
+"-:-"align center content  
 effect
 | Colmn1        | Column2        | Column3        |
 | ------------- | -------------- | -------------- |
 | Item1         | Item1          | Item1          |
 
 ### Footnote
-<pre>[^]</pre> used to footnote
+`[^]`used to footnote
 **effect**
 Markdown can use footnote[^1]
 special signs can be used \ indicated.
@@ -109,6 +109,6 @@ special signs can be used \ indicated.
 - [ ] Study English
 - [x] Study Markdown
 ### Write fornula
-```$$```Represent an entire row formula
-effect
+```$$```Represent an entire row formulab  
+effect  
 $E=mc^2$
