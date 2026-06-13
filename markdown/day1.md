@@ -1,60 +1,74 @@
-The so-called bottomless abyss - if you go down it,you may still find a journey of ten thousand miles ahead.
-        -- Mu Xin,On Siple Travel
-## Markdown introduction
-Markdown is a lightweight markup language.
-Allows people to edit document in a plain text format that is easy to read and write then convert to a valid html document.
-The document is written with the suffix .md and .markdown 
-I think markdown is the most popular writing language.
-## Basic grammar 
-### Title 
-Use the # sign to indicate level 1-6 titles
+---
+title: markdown学习（1）
+date: 2026-4-20
+author: 西南
+description: 系统地介绍了 Markdown 这一轻量级标记语言的基本概念、文件后缀及受欢迎程度，并详细讲解了其基础语法，包括使用 `#` 符号表示 1~6 级标题的规则、通过星号或下划线实现斜体、粗体及粗斜体的方法，以及换行的两种技巧（行尾双空格或 `<br/>`）和引用块（包括多层嵌套引用）的写法。文章结构清晰，示例丰富，适合 Markdown 初学者阅读与参考。
+series: markdown
+---
+所谓无底深渊，下去，也是前程万里。
+——木心《素履之往》
+
+## Markdown 简介
+Markdown 是一种轻量级标记语言。
+它允许人们以易读易写的纯文本格式编辑文档，随后可转换为标准的 HTML 文档。
+该类文档以 `.md` 或 `.markdown` 为后缀名保存。
+我认为 Markdown 是目前最受欢迎的写作语言。
+
+## 基础语法
+### 标题
+使用 `#` 号可表示 1~6 级标题
 <pre>
 
 ```markdown
-# headinig 1 
-## heading 2 
-### heading 3 
-#### heading 4 
-##### heading 5 
-###### heading 6 
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 ```
 </pre>
->Attention:\
-Leave a space between the last # character and the title.
-### Font 
-One asterisk or underscore is italic,two are bold,three are bold italic.
-|      code            | effect  |
-| --------            | -----: |
-| ```*This is italic*```      | *This is italic* |
-| ```**This is bold**```     | **This is bold**  |
-| ```***This is italic bold***```  | ***This is italic bold***   |
-|``` _This is italic_```      |_This is italic_ |
-| ```__This is bold__```     | __This is bold__  |
-| ```___This is italic bold___```  | ___This is italic bold___   |
-### Line break
-Force line wrap
-Add two space at the end of the line + carriage return.
+>注意：\
+最后一个 `#` 符号与标题文字之间需保留一个空格。
+
+### 字体
+1 个星号或下划线为斜体，2 个为粗体，3 个为粗斜体。
+
+| 代码格式              |        显示效果 |
+| ----------------- | ----------: |
+| ```*这是斜体*```      |      *这是斜体* |
+| ```**这是粗体**```    |    **这是粗体** |
+| ```***这是粗斜体***``` | ***这是粗斜体*** |
+| ``` _这是斜体_```     |      _这是斜体_ |
+| ```__这是粗体__```    |    __这是粗体__ |
+| ```___这是粗斜体___``` | ___这是粗斜体___ |
+
+### 换行
+强制换行：
+在行尾添加两个空格 + 回车键。
 <pre>
 ```markdown
-first line··
-second line
+第一行··
+第二行
 ```
 </pre>
-***effect***  
-first line  
-second line
+***效果***
+第一行
+第二行
 
-Add ```<br/>```in the middle
-### Quoted
-Within a referenced block,a newline is allowd,which does not terminate the reference.
+也可在中间添加 ```<br/>``` 实现换行。
+
+### 引用
+引用块内允许换行，且不会终止引用。
 <pre>
 ```
->This is a quote
->>This is a quoted of a quoted
->>>This is a quoted of a quoted of a quoted
+>这是一段引用
+>>这是嵌套引用
+>>>这是多层嵌套引用
 ```
 </pre>
->This is a quote
->>This is a quoted of a quoted
->>>This is a quoted of a quoted of a quoted
+>这是一段引用
+>>这是嵌套引用
+>>>这是多层嵌套引用
+
 

@@ -1,114 +1,142 @@
-### Link 
-Markdown lnsert link 
+---
+title: markdown学习2
+date: 2026-04-12 19:30:0
+author: 西南
+description: Markdown 教程（第二篇）详细介绍了多种常用排版元素的语法和用法，包括链接、图片、有序/无序/层级列表、分割线、删除线、下划线、代码块、表格、脚注、转义字符、任务列表和数学公式，适合初学者快速掌握进阶 Markdown 技巧。
+series: markdown
+---
+
+# markdown学习2
+## 插入
+### 链接
+在 Markdown 中插入链接
 <pre>
 ```markdown
-  [text](url) 
+[链接文字](https://blog.diepthink.top/)
 ```
 </pre>
-**example:**
-[This is my blog](https://diepthink.top) 
-### Insert photo
-<pre>
-  ```markdown
-![Picture description,you can not write it](link of pictures)
-  ```
-</pre>
-![My head portrait](https://avatars.githubusercontent.com/u/234639108?v=4&size=64)
-### list 
-#### Ordered list 
-An ordered list uses numbers to add . sign plus a space to mark the list.
-**example**
-<pre>
-  ```markdown
-1. This is a ordered list
-2. This is the second ordered list 
-```
-</pre>
-**effect**
-1. This is a ordered list 
-2. This is the second ordered list 
-#### Unordered list 
-An unordered list uses * + - sign,and plus space to mark the list.
-**example**
-<pre>
-  ```markdown
-  * This is a unordered list
-  + This is a unordered list
-  - This is a unordered list
-```
-</pre>
-  * This is a unordered list
-  + This is a unordered list
-  - This is a unordered list
-Hierarchy
-Use tap or plus space
-**example**
-<pre>
-  ```markdown
- + unordered list 1
-  +unordered list 2 
- 1. ordered list
-  2. ordered list
-  ```
-  </pre>
-**effect**
-+ unordered list 1 
-  + unordered list 2 
-1. ordered list
-   1. ordered list
-### Dividing line 
-Use three - or * to build a dividing line 
-<pre>
-  ```markdown
-  --- 
-  ***
-  ```
-  </pre>
-> --- 
-  ***
+**示例：**
+[这是我的博客](https://blog.diepthink.top/)
 
-### strikethrough 
-Add two ~ sign
+### 插入图片
 <pre>
-  ```markdown
-  ~~This is deleted text~~ 
-  ```
-  </pre>
-~~This is deleted text ~~ 
-### underline 
-In text home and end ```<u>text</u>``` 
-<u>The line has been undeerlined</u>
-### code clock 
-Markdown three are two types of code blocks Insert
-First:In a line reference code can use \` or \```  
->`The code`no code
-```python (Decaration code type)
+```markdown
+![图片描述（可不写）](图片地址)
+```
+</pre>
+![我的头像](https://avatars.githubusercontent.com/u/234639108?v=4&size=64)
+
+### 列表
+#### 有序列表
+有序列表使用**数字 + 英文句号 + 空格**来标记。
+**示例**
+<pre>
+```markdown
+1. 这是有序列表项
+2. 这是第二个有序列表项
+```
+</pre>
+**效果**
+1. 这是有序列表项
+2. 这是第二个有序列表项
+
+#### 无序列表
+无序列表使用 `*`、`+` 或 `-` 符号，再加空格来标记。
+**示例**
+<pre>
+```markdown
+* 这是无序列表项
++ 这是无序列表项
+- 这是无序列表项
+```
+</pre>
+* 这是无序列表项
++ 这是无序列表项
+- 这是无序列表项
+
+#### 层级列表
+使用 Tab 键或空格缩进实现层级。
+**示例**
+<pre>
+```markdown
++ 无序列表 1
+  + 无序列表 2
+1. 有序列表
+   1. 有序列表
+```
+</pre>
+**效果**
++ 无序列表 1
+  + 无序列表 2
+1. 有序列表
+   1. 有序列表
+
+### 分割线
+使用三个 `-` 或 `*` 即可生成分割线。
+<pre>
+```markdown
+---
+***
+```
+</pre>
+> ---
+***
+
+### 删除线
+在文字两端加两个波浪号 `~~`。
+<pre>
+```markdown
+~~这是带删除线的文字~~
+```
+</pre>
+~~这是带删除线的文字~~
+
+### 下划线
+在文字首尾使用 `<u>文字</u>` 标签。
+<u>这段文字已添加下划线</u>
+
+### 代码块
+Markdown 中有两种插入代码的方式。
+第一种：行内引用代码，使用单个反引号 `` ` ``；
+多行代码块使用三个反引号 ```。
+
+>`行内代码` 普通文本`
+
+```python
+# 声明代码语言为 Python
 print("Hello world")
 ```
-### Table 
-"|"used to divide cells 
-":-"align content left
-"-:"align content right 
-"-:-"align center content  
-effect
-| Colmn1        | Column2        | Column3        |
-| ------------- | -------------- | -------------- |
-| Item1         | Item1          | Item1          |
 
-### Footnote
-`[^]`used to footnote
-**effect**
-Markdown can use footnote[^1]
-special signs can be used \ indicated.
-**effect**
-<pre>\*  \+   ....</pre>
-### Make a plan
-```- [ ]```can indicates unfinished plan
-```- [x]```can indicates finished plan
-**effect**
-- [ ] Study English
-- [x] Study Markdown
-### Write fornula
-```$$```Represent an entire row formulab  
-effect  
+### 表格
+用 `|` 分隔单元格；
+`:-` 左对齐；
+`-:` 右对齐；
+`:-:` 居中对齐。
+
+**效果**
+| 第一列 | 第二列 | 第三列 |
+| ------ | ------ | ------ |
+| 内容1 | 内容1 | 内容1 |
+
+### 脚注
+使用 `[^]` 标记脚注。
+**效果**
+Markdown 可以使用脚注[^1]
+
+### 转义字符
+特殊符号前加反斜杠 `\` 即可原样显示。
+**效果**
+<pre>\* \+ ……</pre>
+
+### 任务列表
+`- [ ]` 表示未完成任务；
+`- [x]` 表示已完成任务。
+
+**效果**
+- [ ] 学习英语
+- [x] 学习 Markdown
+### 公式
+用 `$$` 包裹表示整行公式。
+**效果**
 $E=mc^2$
+
